@@ -18,6 +18,8 @@ public class CustomExceptionThrower {
     public static void main(String [] args){
         
     }
+
+    
     public void throwCustomException() throws CustomException{
         throw new CustomException();
     }
